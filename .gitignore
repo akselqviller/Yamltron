@@ -1,0 +1,9 @@
+bin/
+obj/
+*.suo
+*.csproj.user
+*.vbproj.user
+*.vcproj.user
+*.vcxproj.user
+*.userprefs
+*.sdsettings
