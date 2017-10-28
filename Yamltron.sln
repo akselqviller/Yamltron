@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yamltron", "Yamltron\Yamltron.csproj", "{46E7FD22-6793-4089-B603-8DFD2D41572A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yamltron.Quality.Tests", "Yamltron.Quality.Tests\Yamltron.Quality.Tests.csproj", "{A522C2C2-95FD-4EB1-83AB-C9C0E97AD7D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{46E7FD22-6793-4089-B603-8DFD2D41572A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46E7FD22-6793-4089-B603-8DFD2D41572A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46E7FD22-6793-4089-B603-8DFD2D41572A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A522C2C2-95FD-4EB1-83AB-C9C0E97AD7D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A522C2C2-95FD-4EB1-83AB-C9C0E97AD7D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A522C2C2-95FD-4EB1-83AB-C9C0E97AD7D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A522C2C2-95FD-4EB1-83AB-C9C0E97AD7D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
