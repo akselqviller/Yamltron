@@ -38,7 +38,8 @@ namespace Yamltron
             {
                 var dataNode = (YamlMappingNode)doc.Children["data"];
 
-                var newNodes = direction == BakeDirection.ToBase64 ?
+                var newNodes = direction == BakeDirection.ToBase64 
+                        ?
                     dataNode.Select(n => new KeyValuePair<YamlNode, YamlNode>(
                         n.Key, 
                         new YamlScalarNode(Convert.ToBase64String(Encoding.UTF8.GetBytes(((YamlScalarNode)n.Value).Value)))))
