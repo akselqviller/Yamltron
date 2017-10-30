@@ -7,3 +7,4 @@ obj/
 *.vcxproj.user
 *.userprefs
 *.sdsettings
+/packages
