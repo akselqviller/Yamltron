@@ -26,7 +26,7 @@ Alternately
 
 Alternately
 
-`ytron -s secrets_b64.yaml secrets_cleartext.yaml`
+`ytron -c secrets_b64.yaml secrets_cleartext.yaml`
 
 ## Example
 
